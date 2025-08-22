@@ -38,6 +38,7 @@ export const AuthProvider = ({children}: PropsWithChildren) => {
     }, [])
 
     const loginWithEmailPassword = (email: string, password: string) => {
+        console.log(password);
         setUser({
             name: 'Jean Pool Gutierrez',
             email: email
