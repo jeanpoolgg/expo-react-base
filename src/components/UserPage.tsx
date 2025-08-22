@@ -1,6 +1,11 @@
+import { useUsers } from "../hooks/useUsers";
 import { UserRow } from "./UserRow"
 
 export const UserPage = () => {
+
+    const { users } = useUsers();
+    console.log(users);
+
     return (
         <>
             <table className="w-[500px] bg-black rounded-xl text-white">
