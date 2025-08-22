@@ -3,7 +3,8 @@
 // import { BasicFunctions } from './typescript/BasicFunctions'
 // import { Counter } from "./components/Counter"
 // import { LoginPage } from "./components/LoginPage"
-import { UserPage } from "./components/UserPage"
+// import { UserPage } from "./components/UserPage"
+import { FormsPage } from "./components/FormsPage"
 import { AuthProvider } from "./context/AuthContext"
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
           {/* <BasicFunctions /> */}
           {/* <Counter /> */}
           {/* <LoginPage /> */}
-          <UserPage/>
+          {/* <UserPage/> */}
+          <FormsPage/>
         </div>
       </AuthProvider>
     </>
